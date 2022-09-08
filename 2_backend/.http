@@ -1,0 +1,22 @@
+### GET ALL CUSTOMERS
+GET http://localhost:5002/api/customers
+
+### ADD CUSTOMER
+POST http://localhost:5002/api/customers
+Content-Type: application/json
+
+{
+    "fullname": "Alex Smith",
+    "email": "alexsmith@smith.com"
+}
+
+### UPDATE CUSTOMER
+PUT http://localhost:5002/api/customers/63185dfca9689c6a89f5bb64
+Content-Type: application/json
+
+{
+    "fullname": "adadad adadad"
+}
+
+### DELETE USER
+DELETE http://localhost:5002/api/customers/6316fe8890354c9a10ae7ac5
